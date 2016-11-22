@@ -319,7 +319,18 @@
 <link rel="stylesheet" type="text/css" href="/libs/sweetalert/dist/sweetalert.css">
 
 <!-- Firebase -->
-<!-- TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Add Firebase to your web app. -->
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDOf9zw6Rcy3V94EhrdUeJfBpPJMNsZR_E",
+    authDomain: "fartao-3a5cc.firebaseapp.com",
+    databaseURL: "https://fartao-3a5cc.firebaseio.com",
+    storageBucket: "fartao-3a5cc.appspot.com",
+    messagingSenderId: "757418075382"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <!-- Firebase UI for Auth -->
 <script src="https://www.gstatic.com/firebasejs/ui/live/1.0/firebase-ui-auth.js"></script>
