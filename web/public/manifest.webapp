@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "name": "Friendly Pix",
+  "name": "Fidelium",
   "launch_path": "/index.html",
-  "description": "Share your pix.",
+  "description": "Guarde seus carimbos de fidelidade.",
   "icons": {
-    "128": "/images/touch/touch-icon-128x128.png"
+    "192": "/images/icons/android-icon-192x192.png"
   },
   "developer": {
     "name": "",
@@ -18,9 +18,13 @@
   },
   "locales": {
     "en": {
-      "name": "Friendly Pix",
-      "description": "Share your pix."
+      "name": "Fidelium",
+      "description": "Store yours cupom."
+    },
+    "pt-br": {
+      "name": "Fidelium",
+      "description": "Guarde seus catimbos de fidelidade."
     }
   },
-  "gcm_sender_id": "103953800507"
+  "gcm_sender_id": "877514274517"
 }
